@@ -7,7 +7,7 @@ import static telran.introduction.Calculations.*;
 public class CalculationsTest {
 @Test
     void testSum() {
-assertEquals(4, sum(2, 2));
+        assertEquals(4, sum(2, 2));
     }
     @Test
     void testMultiply() {
