@@ -16,6 +16,7 @@ assertEquals(4, sum(2, 2));
     @Test
     void testDivide() {
         assertEquals(3, divide(6,2));
+        assertEquals(0, divide(6,0));   
     }
     @Test
     void testSubtract() {
@@ -24,10 +25,12 @@ assertEquals(4, sum(2, 2));
     @Test
     void testSumOfDigits(){
         assertEquals(6, sumOfDigits(123));
+        assertEquals(6, sumOfDigits(-123));
     }
     @Test
     void testMaxDigits(){
         assertEquals(3, maxDigits(123));
+        assertEquals(3, maxDigits(-123));
     }
     @Test
     void testIsDividedOn(){
