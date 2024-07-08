@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static telran.introduction.Calculations.*;
 
 public class CalculationsTest {
-@Test
+    @Test
     void testSum() {
         assertEquals(4, sum(2, 2));
     }
